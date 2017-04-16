@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage very simple demo." />
+	<meta name="keywords"  content="fullpage,jquery,demo,simple" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="G:/網頁/fullPage.js-master/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="G:/網頁/fullPage.js-master/vendors/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="G:/網頁/fullPage.js-master/jquery.fullPage.js"></script>
+	<script type="text/javascript"></script>
+
+<script>  
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+	</script>
+
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+			});
+		});
+	</script>
+</head>
+<body>
+
+
+
+<div id="fullpage">
+<CENTER>
+<div class="section active" id="section0"><p> If you click on me , i will disappear.</p> </div>
+<div class=section id="section1"> <p>  Click me away!! </p> </div>
+<div class=section id="section2"> <p>  Click me too!!! </p> </div>
+</CENTER>
+</body>
+</html>
+
